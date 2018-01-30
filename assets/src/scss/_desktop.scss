@@ -1,0 +1,91 @@
+
+@media (min-width: $desktop-width) {
+    body{
+            
+        .sectionCombine{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding-bottom: 5%;
+
+
+            .logoContainer{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                padding-top: 22%;
+                height: 50px;
+                width: 100%;
+                display: block;
+            }
+
+            section.newSection{
+                padding-top: 10%;
+                grid-column-start: 2;
+                grid-column-end: 4;
+                color: $base-font-color;
+                height: 100px;
+                position: relative;
+                display: block;
+                
+                
+                .mainText h1{
+                    text-align: left;
+                    color:#fff;
+                    font-family: $main-font;
+                    margin: 5%;
+                }
+                
+                .selectric-wrapper {
+                    float: left;
+                    margin: auto;
+                    width: 50%;
+                }
+            }
+        }
+     
+         
+         section.news{
+             width: auto;
+             display: grid;
+             grid-template-columns: repeat(4, 1fr);
+     
+             .all_News{
+                 display: inline-block;
+                 a{  
+                     display: inline-block;
+                     background-repeat: no-repeat;
+                     background-position: center center;
+                     background-size: cover;
+                     text-decoration: none;
+     
+                     position: relative;
+                     height: 350px;
+                     width: 100%;
+             
+                     p{
+                        position:absolute;
+                        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,0.50));  
+                        bottom: 0;
+                        left: 0;
+                        color:white;
+                        line-height: 1.1em;
+                        padding: .5em;
+    
+                     }
+     
+                 }
+                 
+             }
+         }
+
+        footer{
+             height: 100px;
+             text-align: center;
+             p{
+                 padding-top: 1.5em;
+             }
+             h2{
+                color: $footer-text-color;
+             }   
+         }
+    }
+}
