@@ -13,7 +13,7 @@ $gulp
 ## Mobile
 <img src="./instanews-mobile-photos.png" width="300">
 
-##Technologies Used
+## Technologies Used
 * Git Bash (https://git-for-windows.github.io/)
 * Google Chrome Developer Tools
 * HTML Validator (https://validator.w3.org/nu/#file)
@@ -26,7 +26,7 @@ $gulp
 * JQuery Plugins (Selectric: http://selectric.js.org/)
 * Sass
 
-
+## Dependencies
 ```bash
  "devDependencies": {
     "browser-sync": "^2.23.6",
